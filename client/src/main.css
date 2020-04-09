@@ -36,6 +36,10 @@ a.nav-link:hover {
 	color: white !important;
 }
 
+.button.ui.green.google.button {
+	margin-right: .5rem;
+}
+
 .button.ui.red.google.button {
 	margin-right: .5rem;
 }
