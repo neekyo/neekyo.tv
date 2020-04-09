@@ -1,1 +1,72 @@
+body {
+	background-color: #292929;
+}
 
+a.header {
+	font-size: 1.5rem;
+}
+
+.btn {
+	background-color: #9246ff !important;
+	color: white !important;
+}
+
+.icon {
+	color: darkgray;
+}
+
+.info {
+	color: white !important;
+	font-size: 1.1rem;
+	padding: 1rem 0 1rem 0;
+}
+
+.item {
+	text-decoration: none;
+}
+
+.modal {
+	width: 45rem !important;
+}
+
+.purple {
+	color: #9246ff !important;
+}
+
+.ui.list > .item a.header {
+	color: #9246ff !important;
+}
+
+.ui.list > .item a.header:hover {
+	color: lightgray !important;
+}
+
+.ui.modal > .actions {
+	background-color: lightgray;
+}
+
+.ui.modal > .content {
+	font-weight: bold;
+	background-color: lightgray;
+}
+
+.ui.modal > .header {
+	color: #9246ff !important;
+	background-color: lightgray;
+}
+
+.ui.secondary.pointing.menu {
+	padding-top: 1rem;
+	background-color: #18181b;
+	border-bottom: 2px solid #9246ff;
+}
+
+video {
+	width: 100%;
+	border-style: solid;
+	border-color: #9246ff;
+}
+
+.white {
+	color: white !important;
+}

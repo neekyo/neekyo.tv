@@ -36,6 +36,7 @@ class StreamDelete extends React.Component {
 	render() {
 		return (
 			<Modal
+				className="modal"
 				title="Delete Stream"
 				content={this.renderContent()}
 				actions={this.renderActions()}
