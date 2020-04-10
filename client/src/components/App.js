@@ -10,10 +10,10 @@ import history from '../history';
 
 const App = () => {
 	return (
-		<div className="ui container">
-			<Router history={history}>
-				<div>
-					<Header />
+		<Router history={history}>
+			<div>
+				<Header />
+				<div className="ui container">
 					<Switch>
 						<Route path="/" exact component={StreamList} />
 						<Route path="/streams/new" exact component={StreamCreate} />
@@ -22,8 +22,8 @@ const App = () => {
 						<Route path="/streams/:id" exact component={StreamShow} />
 					</Switch>
 				</div>
-			</Router>
-		</div>
+			</div>
+		</Router>
 	);
 };
 

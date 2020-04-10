@@ -50,8 +50,8 @@ class StreamShow extends React.Component {
 		return (
 			<div>
 				<video ref={this.videoRef} controls />
-				<h1 className="purple">{title}</h1>
-				<h5 className="white">{description}</h5>
+				<p className="title purple">{title}</p>
+				<p className="description white">{description}</p>
 			</div>
 		);
 	}

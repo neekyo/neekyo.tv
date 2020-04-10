@@ -2,13 +2,42 @@ body {
 	background-color: #292929;
 }
 
+h1 {
+	text-transform: uppercase;
+}
+
 a.header {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a.nav-link {
+	font-size: 15px;
+	color: white !important;
+}
+
+a.nav-link:hover {
+	color: #9246ff !important;
+}
+
+.brand {
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.brand:hover {
+	color: #9246ff !important;
 }
 
 .btn {
 	background-color: #9246ff !important;
 	color: white !important;
+}
+
+.button.ui.red.google.button {
+	margin-right: .5rem;
 }
 
 .icon {
@@ -17,20 +46,38 @@ a.header {
 
 .info {
 	color: white !important;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	padding: 1rem 0 1rem 0;
 }
 
-.item {
-	text-decoration: none;
+.logo {
+	font-family: 'Yellowtail', cursive;
+	font-size: 32px;
+	color: #9246ff;
+	padding: 0px 10px 0 12px;
+	margin-top: 10px !important;
 }
 
 .modal {
 	width: 45rem !important;
 }
 
+.navbar {
+	background-color: #3a3a3d;
+	margin-bottom: .5rem;
+	padding: 0;
+	height: 50px;
+}
+
 .purple {
 	color: #9246ff !important;
+}
+
+.title {
+	font-size: 1.6rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 0;
 }
 
 .ui.list > .item a.header {
@@ -39,6 +86,12 @@ a.header {
 
 .ui.list > .item a.header:hover {
 	color: lightgray !important;
+}
+
+.ui.standard.modal.visible.active {
+	left: 31.525%;
+	top: 30%;
+	height: auto;
 }
 
 .ui.modal > .actions {
@@ -55,16 +108,11 @@ a.header {
 	background-color: lightgray;
 }
 
-.ui.secondary.pointing.menu {
-	padding-top: 1rem;
-	background-color: #18181b;
-	border-bottom: 2px solid #9246ff;
-}
-
 video {
 	width: 100%;
 	border-style: solid;
 	border-color: #9246ff;
+	margin-top: 1rem;
 }
 
 .white {

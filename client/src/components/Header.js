@@ -1,20 +1,25 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import GoogleAuth from './GoogleAuth';
+import { Navbar, Nav } from 'react-bootstrap';
 
 const Header = () => {
 	return (
-		<div className="ui secondary pointing menu">
-			<Link to="/" className="item purple">
-				neekyo.tv
-			</Link>
-			<div className="right menu">
-				<Link to="/" className="item purple">
-					All Streams
-				</Link>
-				<GoogleAuth />
-			</div>
-		</div>
+		<React.Fragment>
+			<Navbar collapseOnSelect expand="lg">
+				<p className="logo">NY</p>
+				<Navbar.Brand className="brand white" href="/">
+					neekyo.tv
+				</Navbar.Brand>
+				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
+				<Navbar.Collapse id="responsive-navbar-nav">
+					<Nav className="mr-auto" />
+					<Nav>
+						<Nav.Link href="/">All streams</Nav.Link>
+					</Nav>
+					<GoogleAuth />
+				</Navbar.Collapse>
+			</Navbar>
+		</React.Fragment>
 	);
 };
 
