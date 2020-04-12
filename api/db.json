@@ -1,25 +1,34 @@
 {
   "streams": [
     {
-      "description": "This is a great stream!",
-      "title": "My Stream",
-      "id": 1
-    },
-    {
-      "description": "Here's some stream",
-      "title": "Other Stream",
-      "id": 2
-    },
-    {
-      "title": "Re-factor",
-      "description": "This stream is about re-factoring",
-      "id": 6
-    },
-    {
-      "title": "Could I possibly be done with CSS?",
-      "description": "I think so!",
+      "title": "Coding ",
+      "description": "Showing you how to code with React and Redux!",
       "userId": "100856977093187695232",
       "id": 7
+    },
+    {
+      "title": "Gaming",
+      "description": "Climbing ranks as support carry in League of Legends",
+      "userId": "100856977093187695232",
+      "id": 8
+    },
+    {
+      "title": "Gaming #2",
+      "description": "Playing Counter-Strike: Global Offensive (Road to Global!)",
+      "userId": "100856977093187695232",
+      "id": 9
+    },
+    {
+      "title": "Music",
+      "description": "Streaming some deep house music, enjoy!",
+      "userId": "100856977093187695232",
+      "id": 10
+    },
+    {
+      "title": "Gaming #3 ",
+      "description": "Watch me play the new free-to-play Call of Duty: Modern Warfare!",
+      "userId": "100856977093187695232",
+      "id": 11
     }
   ]
 }
