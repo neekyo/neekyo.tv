@@ -3,7 +3,7 @@
 An app with full CRUD capabilities configured with an RTMP server to allow streaming videos with OBS
 
 <div align="center">
-<img height="100px" width="150px" src="https://www.pikpng.com/pngl/m/71-711327_obs-studio-tomoe-symbol-clipart.png">
+<img height="150px" width="300px" src="https://www.pngkit.com/png/detail/212-2122903_logo-obs-panasonic-network-camera-recorder-with-viewer.png">
 </div>
 
 
@@ -59,6 +59,11 @@ $ npm start
 ```shell
 $ npm start
 ```
+
+### Preview
+
+<img src="https://github.com/neekyo/neekyo.tv/blob/master/client/src/assets/stream3.png">
+<img src="https://github.com/neekyo/neekyo.tv/blob/master/client/src/assets/stream2.png">
 
 ### Built With
 
