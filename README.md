@@ -3,7 +3,7 @@
 An app with full CRUD capabilities configured with an RTMP server to allow streaming videos with OBS
 
 <div align="center">
-<img height="150px" width="300px" src="https://www.pngkit.com/png/detail/212-2122903_logo-obs-panasonic-network-camera-recorder-with-viewer.png">
+<img height="150px" width="auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/OBS_Studio_Logo.svg/1024px-OBS_Studio_Logo.svg.png">
 </div>
 
 
